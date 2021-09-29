@@ -1,0 +1,51 @@
+.about-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-container {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.main-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  width: 600px;
+  /* position:absolute; */
+  z-index: 1;
+  color: white;
+  margin-left: 25%;
+  margin-right:25%;
+}
+
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: red; 
+  color: white;
+  cursor: pointer;
+}
+
+
+.contact-btn:hover {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgb(155, 10, 10); 
+  color: white;
+}

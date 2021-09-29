@@ -1,0 +1,22 @@
+.container {
+    height: 100vh;
+  }
+
+  .container img {
+    width: 100%;
+    position: absolute;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .main-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 6rem;
+    transform: translate(-50%, -30%);
+  }
+
+
+  

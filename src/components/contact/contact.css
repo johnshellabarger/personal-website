@@ -1,0 +1,157 @@
+.contact-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 85px;
+  margin-bottom: 15px;
+}
+
+.resume-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgb(0, 0, 0); 
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .5s linear;
+
+}
+
+.resume-btn:hover {
+background-color: red;
+}
+
+.contact-subtext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  width: 80%;
+  margin-bottom: 60px;
+}
+
+.contact-container {
+  width: 50%;
+  height: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+.icon-div {
+  margin-bottom: 75px;
+  display: flex;
+  width: 100%;
+}
+
+/* Icons */
+
+.social-links {
+  color: white;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  /* font-family:fontawesome; */
+  position: relative;
+  display: inline-block;
+  width:60px;
+  height:60px;
+  /* padding-top:12px; */
+  margin-right: 20px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
+}
+
+.social-links:nth-child(1) {
+  background-color:  #de5246;
+}
+
+.social-links:nth-child(2) {
+  background-color:  #0072b1;
+}
+
+.social-links:nth-child(3) {
+  background-color: black;
+}
+
+.social-links:nth-child(1):hover {
+  background: #91352d;
+}
+
+.social-links:nth-child(2):hover {
+  background: #004368;
+}
+
+.social-links:nth-child(3):hover {
+  background: rgb(80, 80, 80);
+}
+
+
+/* pop-up text */
+
+.social-links span {
+  color:rgb(255, 255, 255);
+  position:absolute;
+  font-family:sans-serif;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:2px;
+  background:rgb(161, 161, 161);
+  visibility:hidden;
+  opacity:0;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+.social-links span:before {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.social-links:hover span {
+  bottom:70px;
+  visibility:visible;
+  opacity:1;
+}
+
+/* font awesome icons */
+
+/* .social-links:nth-of-type(1):before {
+content:'\f09a';
+}
+.social-links:nth-of-type(2):before {
+content:'\f099';
+}
+.social-links:nth-of-type(3):before {
+content:'\f0d5';
+} */
+
+
+.social-icon {
+  font-size: 35px;
+  height: 100%;
+}

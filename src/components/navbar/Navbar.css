@@ -9,14 +9,7 @@
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
-    transition: all .5s ease;
-}
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 
@@ -83,4 +76,11 @@ li {
     right: auto;
     width: 100%;
   }
+}
+
+
+.navbar.active {
+  opacity: 0;
+  transition: all 1s ease;
+  transition-timing-function: ease-in;
 }

@@ -4,16 +4,24 @@ import { useState } from 'react'
 
 const Navbar = () => {
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [navbar, setNavbar] = useState(true)
 
+  const changeBackground = () => {
+    if(window.scrollY >= 1) {
+      setNavbar(false)
+    } else{
+      setNavbar(true)
+    }
+  }
 
+  window.addEventListener('scroll', changeBackground)
 
     return (
-      <nav className='navbar'>
-        <div className='container'>
+
+      <nav className={navbar ? 'navbar' : 'navbar active'}>
           <div className='row'>
        
-              <figure class="logo">
+              <figure className="logo">
                 {/* <a href="index.html"><img src="" class="rotate" alt="logo"/></a> */}
               </figure>
     
@@ -25,7 +33,6 @@ const Navbar = () => {
               </ul>
 
           </div>
-        </div>
       </nav>
     )
 }
