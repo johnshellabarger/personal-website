@@ -2,10 +2,13 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 70px;
-  width: 70%;
+  width: 900px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: black;
+  text-align: center;
+
 }
 
 .about-container {
@@ -18,9 +21,8 @@
   font-weight: 600;
   font-size: 60px;
   width: 600px;
-  /* position:absolute; */
-  z-index: 1;
-  color: white;
+  position:absolute;
+  z-index: 5;
   margin-left: 25%;
   margin-right:25%;
 }
@@ -49,3 +51,112 @@
   background-color: rgb(155, 10, 10); 
   color: white;
 }
+
+
+
+
+.parallax-banner {
+  width: 100vw;
+  height: calc(100vh - 12vh);
+  scroll-snap-align: start;
+}
+
+.about-section {
+  margin-top: 150px;
+  width: 100%;
+  height: calc(100vh);
+  scroll-snap-align: start;
+}
+
+
+
+
+.container {
+  /* height: calc(100vh - 12vh);
+  width: 100vw;
+  overflow-y:auto;
+  scroll-snap-type: y mandatory;
+  position: relative; */
+}
+
+.element {
+  width: 100vw;
+  height: calc(100vh - 12vh);
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.element:nth-child(1) {
+  background: #6580d1;
+}
+.element:nth-child(2) {
+  background: #ffffff;
+}
+
+
+.y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+
+
+
+/* Below here just styles the container & elements so they look nice */
+
+
+/* .y-scroll .element {
+  margin-bottom: 10px;
+} */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px)  {
+  .about-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    text-align: center;
+
+  }
+}
+
+@media only screen and (max-width: 850px)  {
+  .about-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    text-align: center;
+
+  }
+}
+
+
+@media only screen and (max-width: 600px)  {
+  .about-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 350px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: black;
+    text-align: center;
+  }
+}
+
+
