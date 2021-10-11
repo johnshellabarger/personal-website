@@ -199,3 +199,85 @@ background-color: red;
 
 
 
+@media only screen and (max-width: 1100px)  {
+  .imgContainer {
+    height: 400px;
+    width: 400px;
+  }
+
+  .contact-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 10px;
+  }
+
+  .contact-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(104, 104, 104);
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  .social-links span {
+    display:none;
+  }
+
+
+.contact-container {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+}
+
+@media only screen and (max-width: 800px)  {
+  .imgContainer {
+    display: none;
+  }
+
+  .contact-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 1;
+  }
+
+  .contact-page-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 75px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(104, 104, 104);
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .icon-div {
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 600px)  {
+ 
+}
+
+
