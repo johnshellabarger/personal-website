@@ -14,7 +14,7 @@ const AboutSection = () => {
         </p>
 
         <div className='btn-wrapper'>
-          <button className='contact-btn' onClick={() => history.push("/contact")}>CONTACT ME</button>
+          <button className='resume-btn' onClick={() => history.push("/contact")}>CONTACT ME</button>
         </div>
     </div>
   )
