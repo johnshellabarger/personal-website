@@ -261,7 +261,8 @@ background-color: red;
     font-weight: 400;
     font-size: 35px;
     color: rgb(104, 104, 104);
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-bottom: 50px;
   }
 
@@ -271,13 +272,34 @@ background-color: red;
     justify-content: center;
     width: 100%;
   }
+
+  .contact-container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+  }
   
 
 }
 
 
 @media only screen and (max-width: 600px)  {
- 
+  .contact-container {
+    width: 425px;
+    height: 425px;
+    margin: auto;
+  }
+
+  .contact-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(104, 104, 104);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
 }
 
 

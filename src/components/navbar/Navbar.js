@@ -8,20 +8,16 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
+  
   const handleClick = () => setClick(!click);
 
-  // const changeBackground = () => {
-  //   if(window.scrollY >= 1) {
-  //     setNavbar(false)
-  //   } else{
-  //     setNavbar(true)
-  //   }
-  // }
-
-  // window.addEventListener('scroll', changeBackground)
 
     return (
 
+      <>
+      <div className='js-logo-container'>
+        <img className='js-logo glitch' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2F0001%204.jpg?alt=media&token=f9651b19-d1a1-405f-bd90-7f0f22c71e49' alt='logo' />
+      </div>
 
       <nav className='navbar'>
         <div className='nav-container'>
@@ -75,6 +71,7 @@ const Navbar = () => {
             <NavLink activeClassName='nav-link-active' className='link' to='/contact'><li>Contact</li></NavLink>
           </ul> */}
       </nav>
+      </>
 
     )
 }

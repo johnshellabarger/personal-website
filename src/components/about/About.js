@@ -1,6 +1,5 @@
 import './about.css'
 import AboutSection from './AboutSection'
-import ParallaxAbout from './ParallaxAbout'
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 
@@ -33,7 +32,6 @@ const About = () => {
     </ParallaxBanner>
           <div class="element"><AboutSection /></div>
 
-          <img src='images/rock1.png'/>
     </div>
   )
 }

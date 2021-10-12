@@ -9,6 +9,10 @@ const AboutSection = () => {
           I am a Full-stack Software Engineer and Designer from Denver, Colorado.
         </h1>
 
+        <p>
+          
+        </p>
+
         <div className='btn-wrapper'>
           <button className='contact-btn' onClick={() => history.push("/contact")}>CONTACT ME</button>
         </div>

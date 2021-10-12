@@ -18,6 +18,7 @@ const Projects = () => {
             <FaGithub className='github-icon'/>
           </a>
         </div>
+        
         <img src="https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FScreen%20Shot%202021-09-29%20at%202.44.56%20PM.png?alt=media&token=8678794a-97d2-441c-919f-992c8f07fb1d" alt="Deja-Bru" className="image"/>
         <div class="overlay"></div>
       </div>
