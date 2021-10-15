@@ -30,7 +30,7 @@ const Contact = () => {
 
         <div className='right'>
          <div className='imgContainer'>
-         <img className='personal-img' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FUntitled%20design%20(1).png?alt=media&token=0013842b-29a0-481b-9a6b-8cbe7acb44d3' alt='personal-photo'/>
+         <img className='personal-img' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FUntitled%20design%20(1).png?alt=media&token=0013842b-29a0-481b-9a6b-8cbe7acb44d3' alt='personal'/>
          </div>
         </div>
 
