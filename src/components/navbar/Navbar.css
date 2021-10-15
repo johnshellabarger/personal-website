@@ -147,6 +147,10 @@
     color: #ff0000;
     border: none;
   }
+
+  .nav-item:nth-child(1) {
+    margin-top: 50px;
+  }
   .nav-links {
     padding: 1.5rem;
     width: 100%;
@@ -161,7 +165,7 @@
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 30px;
     transform: translate(-100%, 100%);
     font-size: 1.8rem;
     cursor: pointer;
