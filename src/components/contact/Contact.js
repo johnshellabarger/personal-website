@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='left'>
         <div className='contact-container'>
       
-      <h1 className='contact-header'>Get in touch.</h1>
+      <h1 className='contact-header'>Get in touch</h1>
 
       <p className='contact-subtext'>For any inquiries, or just to say hello, please contact me.</p>
 

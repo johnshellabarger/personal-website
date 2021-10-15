@@ -26,8 +26,7 @@
 
 .left {
   background-color: rgb(255, 255, 255);
-
-
+  
 }
 
 .right {
@@ -52,8 +51,8 @@
 .contact-header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 85px;
-  margin-bottom: 15px;
+  font-size: 80px;
+
 }
 
 .resume-btn {
@@ -78,17 +77,18 @@ background-color: red;
   font-size: 30px;
   color: rgb(104, 104, 104);
   width: 80%;
-  margin-bottom: 60px;
 }
 
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
   width: 500px;
-  height: 500px;
-  margin: auto;
 }
 
 .icon-div {
-  margin-bottom: 75px;
+
   display: flex;
   width: 100%;
 }
@@ -237,11 +237,12 @@ background-color: red;
   .imgContainer {
     display: none;
   }
+  
 
   .contact-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 65px;
+    font-size: 60px;
     margin-bottom: 1;
   }
 
@@ -273,10 +274,16 @@ background-color: red;
     width: 100%;
   }
 
-  .contact-container {
+  /* .contact-container {
     width: 600px;
     height: 600px;
     margin: auto;
+  } */
+  
+  .contact-container {
+    display: block;
+    height: 600px;
+    width: 600px;
   }
   
 
@@ -285,9 +292,16 @@ background-color: red;
 
 @media only screen and (max-width: 600px)  {
   .contact-container {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: auto;
+  }
+
+  .contact-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 1;
   }
 
   .contact-subtext {
