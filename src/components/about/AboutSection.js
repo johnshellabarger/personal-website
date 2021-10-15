@@ -1,5 +1,4 @@
 import { useHistory } from 'react-router-dom'
-import { ParallaxBanner } from 'react-scroll-parallax';
 
 const AboutSection = () => {
   const history = useHistory()
