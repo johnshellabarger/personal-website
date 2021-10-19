@@ -191,4 +191,8 @@
     cursor: pointer;
     color: #ffffff;
   }
+
+  .nav-icon-black{
+    color: black;
+  }
 }

@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="nav-icon" onClick={handleClick}>
+          <div className={`nav-icon ${show && 'nav-icon-black'}`} onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
             <FaBars />
 
