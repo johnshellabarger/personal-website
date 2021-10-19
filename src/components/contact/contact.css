@@ -1,6 +1,3 @@
-.page-container {
-  animation: transitionIn 1s;
-}
 
 
 @keyframes transitionIn {
