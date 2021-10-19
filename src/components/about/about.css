@@ -1,3 +1,16 @@
+.header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 67px;
+  width: 600px;
+  position: absolute;
+  z-index: 4;
+  color: white;
+  top: 450px;
+  left: 50px;
+}
+
+
 .about-header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -8,7 +21,6 @@
   margin-bottom: 100px;
   color: black;
   text-align: center;
-
 }
 
 .about-container {

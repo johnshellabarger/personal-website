@@ -1,9 +1,12 @@
 import React from 'react'
 import './contact.css'
 import { FaGoogle, FaLinkedinIn, FaGithub, } from "react-icons/fa";
+// import { useHistory } from 'react-router-dom'
+
 
 
 const Contact = () => {
+  // const history = useHistory()
 
   return (
     <div className='page-container'>
@@ -24,6 +27,7 @@ const Contact = () => {
     </div>
 
       <button className='resume-btn'>VIEW RESUME</button>
+      {/* onClick={() => history.push('/resume')} */}
     
     </div>
         </div>
