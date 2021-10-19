@@ -25,11 +25,8 @@ const Navbar = () => {
       case '/projects':
       case '/contact':
         return true
-        break
-        console.log('this is working?')
       default:
         return false
-        break
     }
   }
 
