@@ -1,6 +1,6 @@
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { FaBars } from "react-icons/fa";
 
  
@@ -8,18 +8,50 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  
   const handleClick = () => setClick(!click);
 
+  const [show, setShow] = useState(false);
+
+  function controlNavbar(){
+      if (window.scrollY > 125) {
+          setShow(true)
+      } else {
+          setShow(false)
+      }
+  }
+
+  function navbarColor(){
+    switch(window.location.pathname){
+      case '/projects':
+      case '/contact':
+        return true
+        break
+        console.log('this is working?')
+      default:
+        return false
+        break
+    }
+  }
+
+  navbarColor()
+
+  useEffect(() => {
+      window.addEventListener('scroll', controlNavbar)
+      return () => {
+          window.removeEventListener('scroll', controlNavbar)
+      }
+  }, [])
 
     return (
 
       <>
+      <nav className={`navbar ${show && 'nav__blue'} ${navbarColor() ? ('not-homepage') : (null)}`}>
       <div className='js-logo-container'>
-        <img className='js-logo glitch' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2F0001%204.jpg?alt=media&token=f9651b19-d1a1-405f-bd90-7f0f22c71e49' alt='logo' />
-      </div>
+        
+        {show ? (<img className='js-logo' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FJSLogo1.svg?alt=media&token=a9917ab0-a12b-4317-8f72-d32e3f1dfe06' alt='logo' />) 
+        : (<img className='js-logo' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FJSLogo1-white.svg?alt=media&token=a19e5632-5ccf-4993-8504-9020d8370fd6' alt='logo' />)}
 
-      <nav className='navbar'>
+      </div>
         <div className='nav-container'>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
@@ -27,7 +59,7 @@ const Navbar = () => {
                 exact
                 to="/"
                 activeClassName="active"
-                className="nav-links"
+                className={`nav-links ${show && 'nav-black'}`}
                 onClick={handleClick}
               >
                 About
@@ -38,7 +70,7 @@ const Navbar = () => {
                 exact
                 to="/projects"
                 activeClassName="active"
-                className="nav-links"
+                className={`nav-links ${show && 'nav-black'}`}
                 onClick={handleClick}
               >
                 Projects
@@ -49,7 +81,7 @@ const Navbar = () => {
                 exact
                 to="/contact"
                 activeClassName="active"
-                className="nav-links"
+                className={`nav-links ${show && 'nav-black'}`}
                 onClick={handleClick}
               >
                 Contact
