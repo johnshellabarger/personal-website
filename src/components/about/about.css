@@ -18,7 +18,18 @@
   width: 900px;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  color: black;
+  text-align: center;
+}
+
+.about-sub-paragraph{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  width: 850px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: black;
   text-align: center;
 }
@@ -27,6 +38,7 @@
   position: relative;
   margin-bottom: 100px;
 }
+
 
 .main-title{
   font-family: 'Montserrat', sans-serif;
@@ -55,6 +67,7 @@
   cursor: pointer;
   font-size: 16px;
   transition: .5s linear;
+  margin-bottom: 100px;
 }
 
 
@@ -79,51 +92,13 @@
   scroll-snap-align: start;
 }
 
-.about-section {
-  margin-top: 150px;
-  width: 100%;
-  height: calc(100vh);
-  scroll-snap-align: start;
-}
 
 
 
 
-.container {
-  /* height: calc(100vh - 12vh);
-  width: 100vw;
-  overflow-y:auto;
-  scroll-snap-type: y mandatory;
-  position: relative; */
-}
-
-.element {
-  width: 100vw;
-  height: calc(100vh);
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
-}
-
-.element:nth-child(1) {
-  background: #6580d1;
-}
-.element:nth-child(2) {
-  background: #ffffff;
-}
-
-
-.y-mandatory {
-  scroll-snap-type: y mandatory;
-}
 
 
 
-/* Below here just styles the container & elements so they look nice */
-
-
-/* .y-scroll .element {
-  margin-bottom: 10px;
-} */
 
 
 
@@ -140,7 +115,18 @@
     width: 800px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    color: black;
+    text-align: center;
+  }
+
+  .about-sub-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    width: 750px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: black;
     text-align: center;
   }
@@ -166,7 +152,18 @@
     width: 500px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    color: black;
+    text-align: center;
+  }
+
+  .about-sub-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: black;
     text-align: center;
   }
@@ -191,10 +188,20 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    width: 350px;
+    width: 450px;
     margin: auto;
     margin-top: 75px;
-    margin-bottom: 75px;
+    color: black;
+    text-align: center;
+  }
+
+  .about-sub-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: black;
     text-align: center;
   }
