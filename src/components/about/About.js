@@ -8,8 +8,8 @@ import { useState, useEffect } from 'react'
 const About = () => {
 
   useEffect(() => {
-    window.addEventListener('resize', controlImage)
-}, [])
+    controlImage()
+  }, [])
 
   const [isMobile, setIsMobile] = useState(false)
 
@@ -20,6 +20,7 @@ const About = () => {
       setIsMobile(false)
     }
   }
+  
 
   return (    
     <div className='page-container'>
