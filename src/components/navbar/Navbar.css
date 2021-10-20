@@ -2,12 +2,12 @@
   background-color: rgb(34, 34, 34);
 }
 
-
 .nav__blue{
   background-color:rgb(255, 255, 255);
   border-bottom: 1px solid rgb(211, 211, 211);
   opacity: .9;
 }
+
 
 .navbar {
   width: 100%;
@@ -136,8 +136,6 @@
   transform: scale(1.1);
   color: grey;
 }
-
-
 
 
 @media screen and (max-width: 800px) {

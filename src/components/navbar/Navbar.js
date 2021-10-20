@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const [show, setShow] = useState(false);
 
+
   function controlNavbar(){
       if (window.scrollY > 125) {
           setShow(true)
@@ -24,19 +25,23 @@ const Navbar = () => {
     switch(window.location.pathname){
       case '/projects':
       case '/contact':
+      case '/resume':
         return true
       default:
         return false
     }
   }
 
+
   navbarColor()
 
   useEffect(() => {
       window.addEventListener('scroll', controlNavbar)
+
       return () => {
           window.removeEventListener('scroll', controlNavbar)
       }
+
   }, [])
 
     return (
@@ -44,6 +49,8 @@ const Navbar = () => {
       <>
       <nav className={`navbar ${show && 'nav__blue'} ${navbarColor() ? ('not-homepage') : (null)}`}>
       <div className='js-logo-container'>
+
+      
         
         {show ? (<img className='js-logo' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FJSLogo1.svg?alt=media&token=a9917ab0-a12b-4317-8f72-d32e3f1dfe06' alt='logo' />) 
         : (<img className='js-logo' src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FJSLogo1-white.svg?alt=media&token=a19e5632-5ccf-4993-8504-9020d8370fd6' alt='logo' />)}

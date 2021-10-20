@@ -1,10 +1,19 @@
 .resume-container {
   text-align:center;
   width:100%;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 
 .iframe-container {
-  width: 75%;
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .iframe-container {
+    width: 80%;
+    margin: auto;
+  }
+
 }
