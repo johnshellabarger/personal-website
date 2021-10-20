@@ -9,7 +9,7 @@ const AboutSection = () => {
         </h1>
 
         <p className='about-sub-paragraph'>
-          Experience in JavaScript Front-End based programming, 
+          Experienced in JavaScript Front-End based programming, 
           and Ruby Back-End database development. My background 
           as a graphic designer provides a lead role in who I am 
           as a developer, allowing me to focus on attention to details,
