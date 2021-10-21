@@ -84,6 +84,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  object-position: 60% 100%; /* try 20px 10px */ 
 }
 
 .parallax-banner {
@@ -209,13 +210,13 @@
   .header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 40px;
-    width: 375px;
+    font-size: 34px;
+    width: 355px;
     position: absolute;
     z-index: 4;
     color: white;
     text-align: center;
-    top: 375px;
+    top: 175px;
     left: 50%;
     transform: translate(-50%, 0%)
   }

@@ -26,7 +26,7 @@ const About = () => {
     <div className='page-container'>
       <h1 className='header'>Hello, my name is John Shellabarger.</h1>
 
-      {isMobile ? (<img className='static-about-photo'src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2Fbackground.png?alt=media&token=f56b3839-8a1b-46d0-896e-87b70f8511ca' alt='sunset'/>) : (      <ParallaxBanner
+      {isMobile ? (<img className='static-about-photo'src='https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2Ffull_selfie.jpg?alt=media&token=1bae126e-a507-4478-bf15-3bfd1568fe9f' alt='sunset'/>) : (      <ParallaxBanner
           className="parallax-banner"
           layers={[
             {
