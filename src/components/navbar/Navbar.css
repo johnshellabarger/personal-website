@@ -129,6 +129,8 @@
   z-index: 30;
   transition-timing-function: ease-in;
   transition: 1s;
+  fill: red;
+
 }
 
 .js-logo:hover {

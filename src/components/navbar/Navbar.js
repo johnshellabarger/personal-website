@@ -32,7 +32,6 @@ const Navbar = () => {
     }
   }
 
-
   navbarColor()
 
   useEffect(() => {

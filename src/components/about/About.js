@@ -6,7 +6,6 @@ import { useState, useEffect } from 'react'
 
 
 const About = () => {
-
   useEffect(() => {
     controlImage()
   }, [])
