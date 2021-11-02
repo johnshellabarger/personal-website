@@ -22,7 +22,6 @@ const Projects = () => {
         <div class="overlay"></div>
       </div>
 
-
       <div class="project-container">
         <div className='project-title'>
           <h1 className='title'>Deja-Bru</h1>
@@ -32,6 +31,19 @@ const Projects = () => {
           </a>
         </div>
         <img src="https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FScreen%20Shot%202021-09-30%20at%2010.11.08%20AM.png?alt=media&token=27f5a4dc-892a-4af4-917c-0a787570f762" alt="Deja-Bru" className="image"/>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="project-container">
+        <div className='project-title'>
+          <h1 className='title'>Amortization Calculator</h1>
+          <a className='project-links' href="https://amortization-calculator.herokuapp.com/" rel="noopener noreferrer" target="_blank"><span>LIVE</span></a>
+          <a className='project-links' href="https://www.loom.com/share/d8e4391ee3aa469ebe30649088863e97" rel="noopener noreferrer" target="_blank"><span>VIEW DEMO</span></a>
+          <a className='github-link' href='https://github.com/johnshellabarger/mortgage-calculator' rel="noopener noreferrer" target="_blank">
+            <FaGithub className='github-icon'/>
+          </a>
+        </div>
+        <img src="https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FScreen%20Shot%202021-11-01%20at%203.05.30%20PM.png?alt=media&token=bb9da149-d14b-44c1-a739-78ae68dff10b" alt="Deja-Bru" className="image"/>
         <div class="overlay"></div>
       </div>
 
