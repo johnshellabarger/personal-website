@@ -11,7 +11,7 @@ const AboutSection = () => {
         <p className='about-sub-paragraph'>
           Experienced in JavaScript Front-End based programming, 
           and Ruby Back-End database development. My background 
-          as a graphic designer provides a lead role in who I am 
+          as a graphic designer provides a vital role in who I am 
           as a developer, allowing me to focus on attention to details,
           and aesthetically pleasing UI/UX design.
         </p>
