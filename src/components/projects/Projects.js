@@ -38,7 +38,7 @@ const Projects = () => {
         <div className='project-title'>
           <h1 className='title'>Amortization Calculator</h1>
           <a className='project-links' href="https://amortization-calculator.herokuapp.com/" rel="noopener noreferrer" target="_blank"><span>LIVE</span></a>
-          <a className='project-links' href="https://www.loom.com/share/d8e4391ee3aa469ebe30649088863e97" rel="noopener noreferrer" target="_blank"><span>VIEW DEMO</span></a>
+          <a className='project-links' href="https://www.loom.com/share/f7013d4acdaf4af39fce45e6a989b65c" rel="noopener noreferrer" target="_blank"><span>VIEW DEMO</span></a>
           <a className='github-link' href='https://github.com/johnshellabarger/mortgage-calculator' rel="noopener noreferrer" target="_blank">
             <FaGithub className='github-icon'/>
           </a>
