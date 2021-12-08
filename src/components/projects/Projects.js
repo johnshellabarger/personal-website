@@ -8,6 +8,19 @@ const Projects = () => {
   return (
     <div className='page-container'>
 
+      <div class="project-container">
+        <div className='project-title'>
+          <h1 className='title'>Where's that MacDonald's?</h1>
+          <a className='project-links' href="https://wheresthatmacdonalds.netlify.app/" rel="noopener noreferrer" target="_blank"><span>LIVE</span></a>
+          <a className='project-links' href="https://www.loom.com/share/b3edd1bdfbe24b589836f8b521975ab2" rel="noopener noreferrer" target="_blank"><span>VIEW DEMO</span></a>
+          <a className='github-link' href='https://github.com/johnshellabarger/wheres-that-macdonlads' rel="noopener noreferrer" target="_blank">
+            <FaGithub className='github-icon'/>
+          </a>
+        </div>
+        <img src="https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FScreen%20Shot%202021-12-07%20at%207.37.06%20PM.png?alt=media&token=5b8c7fb7-03f9-448f-a921-0845aef9ad9f" alt="Deja-Bru" className="image"/>
+        <div class="overlay"></div>
+      </div>
+
 
       <div class="project-container">
         <div className='project-title'>
@@ -17,7 +30,6 @@ const Projects = () => {
             <FaGithub className='github-icon'/>
           </a>
         </div>
-        
         <img src="https://firebasestorage.googleapis.com/v0/b/upload-image-96574.appspot.com/o/Personal%2FScreen%20Shot%202021-09-29%20at%202.44.56%20PM.png?alt=media&token=8678794a-97d2-441c-919f-992c8f07fb1d" alt="Deja-Bru" className="image"/>
         <div class="overlay"></div>
       </div>
